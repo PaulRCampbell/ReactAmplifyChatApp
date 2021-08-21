@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87caf6b5-b7b7-4611-a323-ef76066c154b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/navigation/MainTabNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/MainTabNavigator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/TabOneScreen.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/types.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="87caf6b5-b7b7-4611-a323-ef76066c154b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,13 +35,13 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="429" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629471980614">
+    <state x="429" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629472042569">
       <screen x="0" y="25" width="1680" height="940" />
     </state>
-    <state x="429" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.940/-151.-1055.1920.1055@0.25.1680.940" timestamp="1629471980614" />
-    <state x="293" y="164" width="1034" height="701" key="AVDManager" timestamp="1629458864208">
+    <state x="429" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.940/-151.-1055.1920.1055@0.25.1680.940" timestamp="1629472042569" />
+    <state x="293" y="164" width="1034" height="701" key="AVDManager" timestamp="1629489998454">
       <screen x="0" y="25" width="1680" height="940" />
     </state>
-    <state x="293" y="164" width="1034" height="701" key="AVDManager/0.25.1680.940/-151.-1055.1920.1055@0.25.1680.940" timestamp="1629458864208" />
+    <state x="293" y="164" width="1034" height="701" key="AVDManager/0.25.1680.940/-151.-1055.1920.1055@0.25.1680.940" timestamp="1629489998454" />
   </component>
 </project>

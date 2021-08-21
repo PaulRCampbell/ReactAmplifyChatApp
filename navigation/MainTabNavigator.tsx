@@ -29,7 +29,7 @@ export default function MainTabNavigator() {
         }}>
       <MainTab.Screen
         name="Camera"
-        component={TabOneNavigator}
+        component={ChatsScreen}
         options={{
           tabBarIcon: ({ color }) => <Fontisto name="camera" color={color} size={20}/>,
           tabBarLabel: () => null
@@ -65,21 +65,21 @@ function TabBarIcon(props: { name: React.ComponentProps<typeof Ionicons>['name']
 
 // Each tab has its own navigation stack, you can read more about this pattern here:
 // https://reactnavigation.org/docs/tab-based-navigation#a-stack-navigator-for-each-tab
-const TabOneStack = createStackNavigator<TabOneParamList>();
+// const TabOneStack = createStackNavigator<TabOneParamList>();
 
-function TabOneNavigator() {
-  return (
-    <TabOneStack.Navigator>
-      <TabOneStack.Screen
-        name="TabOneScreen"
-        component={ChatsScreen}
-        options={{ headerTitle: 'Tab One Title' }}
-      />
-    </TabOneStack.Navigator>
-  );
-}
+// function TabOneNavigator() {
+//   return (
+//     <TabOneStack.Navigator>
+//       <TabOneStack.Screen
+//         name="TabOneScreen"
+//         component={ChatsScreen}
+//         options={{ headerTitle: 'Tab One Title' }}
+//       />
+//     </TabOneStack.Navigator>
+//   );
+// }
 
-const TabTwoStack = createStackNavigator<TabTwoParamList>();
+// const TabTwoStack = createStackNavigator<TabTwoParamList>();
 
 // function TabTwoNavigator() {
 //   return (
