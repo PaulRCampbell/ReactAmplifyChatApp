@@ -25,7 +25,7 @@ export type TabTwoParamList = {
 
 export type ChatRoom = {
   id: String;
-  users: [User];
+  users: User[];
   lastMessage: Message;
 };
 
@@ -39,4 +39,5 @@ export type Message = {
   id: String;
   content: String;
   createdAt: String;
+  user: User
 }
