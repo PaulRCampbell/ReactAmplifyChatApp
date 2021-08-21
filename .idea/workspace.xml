@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87caf6b5-b7b7-4611-a323-ef76066c154b" name="Default Changelist" comment="" />
+    <list default="true" id="87caf6b5-b7b7-4611-a323-ef76066c154b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/ChatRoomScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ChatRoomScreen.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,9 +42,9 @@
       <screen x="0" y="25" width="1680" height="940" />
     </state>
     <state x="429" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.940/-151.-1055.1920.1055@0.25.1680.940" timestamp="1629472042569" />
-    <state x="293" y="164" width="1034" height="701" key="AVDManager" timestamp="1629489998454">
+    <state x="293" y="164" width="1034" height="701" key="AVDManager" timestamp="1629564404213">
       <screen x="0" y="25" width="1680" height="940" />
     </state>
-    <state x="293" y="164" width="1034" height="701" key="AVDManager/0.25.1680.940/-151.-1055.1920.1055@0.25.1680.940" timestamp="1629489998454" />
+    <state x="293" y="164" width="1034" height="701" key="AVDManager/0.25.1680.940/-151.-1055.1920.1055@0.25.1680.940" timestamp="1629564404213" />
   </component>
 </project>
