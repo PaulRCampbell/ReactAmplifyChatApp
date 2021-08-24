@@ -1,21 +1,34 @@
-import React from 'react'
-import { View, Text, Image, TouchableWithoutFeedback } from 'react-native';
-import { User } from '../../types';
-import styles from './style';
-import { useNavigation } from '@react-navigation/core';
-import { API, Auth, graphqlOperation } from 'aws-amplify';
-import { createChatRoom, createChatRoomUser } from '../../src/graphql/mutations'
+import React from 'react';
+import {
+  View,
+  Text,
+  Image,
+  TouchableWithoutFeedback
+} from "react-native";
+import { User } from "../../types";
+import styles from "./style";
+import { useNavigation } from '@react-navigation/native';
 
+import {
+  API,
+  graphqlOperation,
+  Auth,
+} from "aws-amplify";
+import {
+  createChatRoom,
+  createChatRoomUser
+} from '../../src/graphql/mutations';
 
 export type ContactListItemProps = {
-	user: User
+  user: User;
 }
 
 const ContactListItem = (props: ContactListItemProps) => {
-	const { user } = props;
+  const { user } = props;
 
-	const navigation = useNavigation();
-	const onClick = async () => {
+  const navigation = useNavigation();
+
+  const onClick = async () => {
     try {
 
       //  1. Create a new Chat Room
@@ -71,23 +84,20 @@ const ContactListItem = (props: ContactListItemProps) => {
     }
   }
 
+  return (
+    <TouchableWithoutFeedback onPress={onClick}>
+      <View style={styles.container}>
+        <View style={styles.leftContainer}>
+          <Image source={{ uri: user.imageUri }} style={styles.avatar}/>
 
-	return (
-		<TouchableWithoutFeedback onPress={onClick}>
-		<View style={styles.container}>
-
-			<View style={styles.leftContainer}>
-				<Image style={styles.avatar} source={{uri: user.imageUri}} />
-
-			<View style={styles.midContainer}>
-				<Text style={styles.userName}> {user.name} </Text>
-				<Text style={styles.status}> {user.status } </Text>
-			</View>
-			</View>
-
-		</View>
-		</TouchableWithoutFeedback>
-	)
+          <View style={styles.midContainer}>
+            <Text style={styles.userName}>{user.name}</Text>
+            <Text numberOfLines={2} style={styles.status}>{user.status}</Text>
+          </View>
+        </View>
+      </View>
+    </TouchableWithoutFeedback>
+  )
 };
 
 export default ContactListItem;
